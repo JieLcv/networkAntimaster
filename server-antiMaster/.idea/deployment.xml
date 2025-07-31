@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="远程主机 (7dead193-ef77-4bf8-aba4-695bc66562d6)" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="远程主机 (7dead193-ef77-4bf8-aba4-695bc66562d6)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/projects/network-antiMaster/server-antiMaster" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-remote-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-remote-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

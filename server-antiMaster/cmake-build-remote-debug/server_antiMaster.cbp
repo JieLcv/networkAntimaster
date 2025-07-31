@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="server_antiMaster"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\database\;CMake Files\game\;CMake Files\http\;CMake Files\crypto\;CMake Files\reactor\;CMake Files\serialize\;CMake Files\tcp\;CMake Files\thread\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server_antiMaster">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/bin/server_antiMaster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 server_antiMaster"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server_antiMaster/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/bin/server_antiMaster" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 server_antiMaster/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 http"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 http/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 reactor"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 reactor/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 thread/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycrypto">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/libmycrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 mycrypto"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycrypto/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/libmycrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 mycrypto/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 serialize"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 serialize/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="database">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/libdatabase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 database"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="database/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/libdatabase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 database/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test01">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/libtest01.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 test01"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test01/fast">
+				<Option output="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/libtest01.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/common"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/http"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/thread"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/game"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/database"/>
+					<Add directory="/usr/local/ssl/include"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/jiege/projects/network-antiMaster/server-antiMaster/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 test01/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-remote-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/JsonParse.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/JsonParse.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/buffer.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/buffer.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/channel.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/channel.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/AesCrypto.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/AesCrypto.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/Base64.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/Base64.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/Hash.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/Hash.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/RsaCrypto.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/RsaCrypto.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/database/MySqlConn.cpp">
+			<Option target="database"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/database/MySqlConn.h">
+			<Option target="database"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/game/Communication.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/game/Communication.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/game/Room.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/game/Room.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/http/httpRequest.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/http/httpRequest.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/http/httpResponse.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/http/httpResponse.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/main.cpp">
+			<Option target="server_antiMaster"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/dispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/dispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/epollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/epollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/eventLoop.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/eventLoop.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/pollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/pollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/selectDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/selectDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize/Codec.cpp">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize/Codec.h">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize/information.pb.cc">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp/tcpConnection.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp/tcpConnection.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp/tcpServer.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp/tcpServer.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/test/Address.pb.cc">
+			<Option target="test01"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/test/MyTest.cpp">
+			<Option target="test01"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/test/MyTest.h">
+			<Option target="test01"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/test/Person.pb.cc">
+			<Option target="test01"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/thread/threadPool.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/thread/threadPool.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/thread/workThread.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/thread/workThread.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\database\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\http\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crypto\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/reactor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\reactor\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/serialize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\serialize\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tcp\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thread\"/>
+		</Unit>
+		<Unit filename="/home/jiege/projects/network-antiMaster/server-antiMaster/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

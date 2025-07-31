@@ -1,0 +1,7 @@
+syntax = "proto3";
+package Dabing;  // 引入包，类似命名空间，防止不同文件中的同名message冲突
+message Address
+{
+  int32 num = 1;
+  bytes addr = 2;
+}

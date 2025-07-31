@@ -1,0 +1,284 @@
+/*登录背景*/
+Login
+{
+    border-image:url(:/images/login-bk.png);
+}
+/*模式选择背景*/
+GameMode
+{
+    border-image:url(:/images/mode-bk.png);
+}
+/*手动加入房间对话框*/
+JoinRoom
+{
+    border-image:url(:/images/msgbox-bk.png);
+}
+/*登录按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#loginButton
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/login-normal.png);
+    min-width:100px;
+    min-height:36px;
+}
+
+QPushButton#loginButton:hover
+{
+    border-image:url(:/images/login-hover.png);
+}
+QPushButton#loginButton:pressed
+{
+    border-image:url(:/images/login-press.png);
+}
+
+/*注册按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#registerButton
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/reg-normal.png);
+    min-width:100px;
+    min-height:36px;
+}
+
+QPushButton#registerButton:hover
+{
+    border-image:url(:/images/reg-hover.png);
+}
+QPushButton#registerButton:pressed
+{
+    border-image:url(:/images/reg-press.png);
+}
+
+
+/*确定按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#netOkButton
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/ok.png);
+    min-width:100px;
+    min-height:36px;
+}
+
+QPushButton#netOkButton:hover
+{
+    border-image:url(:/images/ok1.png);
+}
+QPushButton#netOkButton:pressed
+{
+    border-image:url(:/images/ok2.png);
+}
+
+/*主页按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#homeBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/go_home.png);
+    min-width:36px;
+    min-height:36px;
+}
+
+QPushButton#homeBtn:hover
+{
+    border-image:url(:/images/go_home1.png);
+}
+QPushButton#homeBtn:pressed
+{
+    border-image:url(:/images/go_home2.png);
+}
+
+/*网络设置按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#netSetBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/www_dial.png);
+    min-width:36px;
+    min-height:36px;
+}
+
+QPushButton#netSetBtn:hover
+{
+    border-image:url(:/images/www_dial1.png);
+}
+QPushButton#netSetBtn:pressed
+{
+    border-image:url(:/images/www_dial2.png);
+}
+
+QLabel#label,#label_2,#label_5,#label_6,#label_7,#label_8,#label_9
+{
+    font-size: 12pt;
+    font-family: 华文隶书;
+}
+
+/*单机模式*/
+QLabel#single_label
+{
+    border-image:url(:/images/single-mode.png);
+    min-width:160px;
+    min-height:50px;
+}
+/*网络模式*/
+QLabel#net_label
+{
+    border-image:url(:/images/net-mode.png);
+    min-width:160px;
+    min-height:50px;
+}
+
+
+
+/*单机模式按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#singleModeBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/single-btn.png);
+    min-width:220px;
+    min-height:116px;
+}
+
+QPushButton#singleModeBtn:hover
+{
+    border-image:url(:/images/single-btn1.png);
+}
+QPushButton#singleModeBtn:pressed
+{
+    border-image:url(:/images/single-btn2.png);
+}
+
+/*网路模式按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#netModeBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/net-btn.png);
+    min-width:220px;
+    min-height:116px;
+}
+QPushButton#netModeBtn:hover
+{
+    border-image:url(:/images/net-btn1.png);
+}
+QPushButton#netModeBtn:pressed
+{
+    border-image:url(:/images/net-btn2.png);
+}
+
+
+/*自动加入房间标签*/
+QLabel#auto_label
+{
+    border-image:url(:/images/zidongchuagnjiang.png);
+    min-width:160px;
+    min-height:50px;
+}
+/*手动加入房间标签*/
+QLabel#manual_label
+{
+    border-image:url(:/images/shoudongchuangjian.png);
+    min-width:160px;
+    min-height:50px;
+}
+/*搜索房间标签*/
+QLabel#search_label
+{
+    border-image:url(:/images/searchroom.png);
+    min-width:160px;
+    min-height:50px;
+}
+
+/*自动加入房间按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#autoBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/auto-join.png);
+    min-width:150px;
+    min-height:150px;
+}
+QPushButton#autoBtn:hover
+{
+    border-image:url(:/images/auto-join1.png);
+}
+QPushButton#autoBtn:pressed
+{
+    border-image:url(:/images/auto-join2.png);
+}
+
+
+/*手动加入房间按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#manualBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/join.png);
+    min-width:150px;
+    min-height:150px;
+}
+QPushButton#manualBtn:hover
+{
+    border-image:url(:/images/join1.png);
+}
+QPushButton#manualBtn:pressed
+{
+    border-image:url(:/images/join2.png);
+}
+
+/*搜索房间按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#searchBtn
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/search.png);
+    min-width:150px;
+    min-height:150px;
+}
+QPushButton#searchBtn:hover
+{
+    border-image:url(:/images/search1.png);
+}
+QPushButton#searchBtn:pressed
+{
+    border-image:url(:/images/search2.png);
+}
+
+/*创建按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#createRoom
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/createRoom-normal.png);
+    min-width:100px;
+    min-height:45px;
+}
+QPushButton#createRoom:hover
+{
+    border-image:url(:/images/createRoom-hover.png);
+}
+QPushButton#createRoom:pressed
+{
+    border-image:url(:/images/createRoom-pressed.png);
+}
+
+/*搜索按钮*/
+/*如果设置状态时，没有按照 正常-悬浮-按下的顺序设置，不会生效*/
+QPushButton#searchRoom
+{
+    /*border-image 会根据按钮大小调整图片大小, background-image不会*/
+    border-image:url(:/images/searchRoom-normal.png);
+    min-width:100px;
+    min-height:45px;
+}
+QPushButton#searchRoom:hover
+{
+    border-image:url(:/images/searchRoom-hover.png);
+}
+QPushButton#searchRoom:pressed
+{
+    border-image:url(:/images/searchRoom-pressed.png);
+}

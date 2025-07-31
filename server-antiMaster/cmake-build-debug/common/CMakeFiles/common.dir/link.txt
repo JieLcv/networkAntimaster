@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a  CMakeFiles/common.dir/JsonParse.cpp.o CMakeFiles/common.dir/buffer.cpp.o CMakeFiles/common.dir/channel.cpp.o
+/usr/bin/ranlib libcommon.a

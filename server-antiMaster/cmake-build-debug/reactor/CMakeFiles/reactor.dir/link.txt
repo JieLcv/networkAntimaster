@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreactor.a  CMakeFiles/reactor.dir/dispatcher.cpp.o CMakeFiles/reactor.dir/epollDispatcher.cpp.o CMakeFiles/reactor.dir/eventLoop.cpp.o CMakeFiles/reactor.dir/pollDispatcher.cpp.o CMakeFiles/reactor.dir/selectDispatcher.cpp.o
+/usr/bin/ranlib libreactor.a

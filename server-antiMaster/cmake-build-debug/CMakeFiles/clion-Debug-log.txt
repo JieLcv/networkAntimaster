@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jiege/projects/network-antiMaster/server-antiMaster
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jiege/projects/network-antiMaster/server-antiMaster/cmake-build-debug
